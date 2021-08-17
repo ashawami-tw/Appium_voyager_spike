@@ -16,7 +16,7 @@ B. For Appium Project Setup
 
 # Run Test
   Before running any test make sure the emulator devices are opened
-  can use follwoing command to open them - ``emulator @<device_name>``
+  can use following command to open them - ``emulator @<device_name>``
   1. Run all tests - ``pytest``
   2. Run particular test - ``pytest ./test/<test_name>``
   3. Run tests parallelly - ``pytest -n <number_of_tests_want_to_run_parallelly>``
@@ -26,3 +26,5 @@ B. For Appium Project Setup
   
 # Reference
   1. Refer for Appium, Android Studio setup - https://rahulshettyacademy.com/blog/index.php/2021/07/25/clone-of-get-started-with-appium/
+  2. Link for AppiumService - https://github.com/appium/python-client/blob/master/appium/webdriver/appium_service.py
+  3. Link for appium_service.start() args - https://appium.io/docs/en/writing-running-appium/server-args/
